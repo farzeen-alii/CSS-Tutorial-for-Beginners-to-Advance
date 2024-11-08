@@ -1,0 +1,10 @@
+.parent {
+    font-size: 50px;
+}
+.first {
+    /* 1em = 16px */
+    /* font-size: 1em; */
+
+    /* rem unit */
+    font-size: 1rem;
+}

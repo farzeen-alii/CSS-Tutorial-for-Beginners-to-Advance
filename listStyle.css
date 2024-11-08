@@ -1,0 +1,27 @@
+ul{
+     /* disc by default */
+    /* list-style-type: disc; */
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    list-style-image: url('./image/star.png');
+     /* outside by default */
+    /* list-style-position: outside; */
+    list-style-position: inside;
+}
+
+ol{
+    /* decimal by default */
+    /* list-style-type: decimal; */
+    /* list-style-type: decimal-leading-zero; */
+    /* list-style-type: upper-alpha; */
+    /* list-style-type: lower-alpha; */
+    /* list-style-type: upper-roman; */
+    /* list-style-type: lower-roman; */
+    list-style-image: url('./image/star.png');
+    list-style-position: inside;
+
+}
+
+li{
+    border: 2px solid red;
+}

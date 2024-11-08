@@ -1,0 +1,12 @@
+.first {
+    color: aqua !important;
+}
+
+#second {
+    color: salmon;
+}
+
+h1 {
+    /* color: blue !important; */
+    color: blue;
+}

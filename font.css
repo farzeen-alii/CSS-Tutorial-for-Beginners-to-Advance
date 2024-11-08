@@ -1,0 +1,12 @@
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 20px;
+    /* font-weight: 700; */
+    font-style: italic;
+    font-variant: small-caps;
+    font-family: 'Times New Roman', Times, serif;
+}

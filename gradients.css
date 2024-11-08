@@ -1,0 +1,17 @@
+.gradient {
+    height: 500px;
+    border: 5px solid black;
+    /* background-image: linear-gradient(green, blue); */
+    /* background-image: linear-gradient(to right, green, blue); */
+    /* background-image: linear-gradient(to left, green, blue); */
+    /* background-image: linear-gradient(to bottom right, green, blue); */
+    /* background-image: linear-gradient(180deg, green, blue); */
+
+    /* background-image: radial-gradient(green,blue, yellow); by default eclipse shape */
+    /* background-image: radial-gradient(circle,green,blue, yellow); */
+    /* background-image: radial-gradient(green 60%,blue 40%); */
+    /* background-image: radial-gradient(green 60%, blue 40%); */
+
+    /* background-image: repeating-radial-gradient(green,blue, yellow); */
+    background-image: repeating-linear-gradient(green,blue, yellow);
+}

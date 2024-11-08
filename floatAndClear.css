@@ -1,0 +1,28 @@
+/* float
+1) left
+2) right
+3) none (by default)
+ Clear
+1) left
+2) right
+3) both
+*/
+
+
+.box1{
+    border: 3px solid black;
+    background-color: tomato;
+    width: 450px;
+    float: left;
+}
+.box2{
+    border: 3px solid black;
+    background-color: yellowgreen;
+    width: 450px;
+    float: right;
+}
+.box3{
+    border: 3px solid black;
+    background-color: aqua;
+    clear: both;
+}

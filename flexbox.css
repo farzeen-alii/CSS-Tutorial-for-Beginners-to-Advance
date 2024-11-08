@@ -1,0 +1,55 @@
+.flex-container{
+    border: 3px solid black;
+    height: 100vh;
+    display: flex;
+    /* flex directions */
+    /*by default  */
+    /* flex-direction: row;   */
+    /* flex-direction: column;   */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column-reverse; */
+
+    /* flex wrap */
+    /* by default no wrap */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+
+    /* shorthand property -> direction wrap */
+    /* flex-flow: row-reverse wrap; */
+
+    /* justify content */
+    /* justify-content: center; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* align items */
+    /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+}
+
+.flex-item{
+    border: 2px solid black;
+    margin: 15px;
+    width: 130px;
+    height: 130px;
+}
+#item-1{
+    background-color: crimson;
+    /* order: 5; */
+    flex-basis: 300px;
+}
+#item-2{
+    background-color: yellowgreen;
+    /* order: 4; */
+    /* flex-shrink: 3; */
+}
+#item-3{
+    background-color: aqua;
+    /* flex-grow: 3; */
+}
+#item-4{
+    background-color: blueviolet;
+    /* align-self: center; */
+}

@@ -1,0 +1,9 @@
+body {
+    background-image: url('image/background.jpg');
+    background-repeat: no-repeat;
+    /* background-position: top; */
+    /* background-position: left; */
+    /* background-position: right; */
+    /* background-position: top right; */
+    background-position: top left;
+}

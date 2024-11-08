@@ -1,0 +1,27 @@
+/* block 
+.) new line 
+.) full width 
+.) customize height and width
+
+inline 
+.) same line 
+.) no full width 
+.) not customize height and width
+
+inline-block
+.) same line 
+.) no full width 
+.) customize height and width */
+
+.display{
+    border: 2px solid black;
+    width: 50%;
+    height: 60px;
+    /* display: inline; */
+    /* display: inline-block; */
+}
+.none{
+    border: 1px solid red;
+    display: none;
+    /* visibility: hidden; */
+}

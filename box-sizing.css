@@ -1,0 +1,22 @@
+.content-box{
+    background-color: tomato;
+    width: 500px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid black;
+    /* by default  */
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+
+}
+.border-box{
+    background-color: blueviolet;
+    width: 500px;
+    height: 200px;
+    padding: 50px;
+    border: 10px solid black;
+    /* actual width padding border adjust */
+    box-sizing: border-box;
+
+
+}

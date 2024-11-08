@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid-container{
+    background-color: aquamarine;
+    height: 550px;
+    display: grid;
+    grid-gap: 1rem;
+
+    /* grid-template-rows: 133px 133px 133px;
+    grid-template-columns: 133px 133px 133px; */
+/* 
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 30px;
+    column-gap: 30px; */
+
+    /* justify-items: center; */
+    /* justify-items: end; */
+    /* justify-items: start; */
+
+    /* align-items: center; */
+    /* align-items: start; */
+    /* align-items: end; */
+    
+    /* shorthand property of justify items and align items */
+    /* place-items: center; */
+
+    grid-template-areas: 
+    'navbar navbar navbar navbar'
+    'section section section aside'
+    'footer footer footer footer'
+    ;
+}
+
+.item{
+    /* background-color: chartreuse;
+    height: 130px;
+    width: 130px;  */
+    /* margin: 4px; */
+}
+
+#item-1{
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    /* grid-row-start: 1;
+    grid-row-end: 4; */
+    /* shorthand property */
+    /* grid-column: 1 / span 3; */
+    /* grid-row: 1 / span 3; */
+    /* justify-self: center; */
+    /* align-self: center; */
+
+    /* place-self: center; */
+
+}
+
+
+.grid-item{
+    background-color: yellowgreen;
+    border: 2px solid black;
+}
+
+
+#navbar{
+    grid-area: navbar;
+}
+#section{
+    grid-area: section;
+}
+#aside{
+    grid-area: aside;
+}
+#footer{
+    grid-area: footer;
+}

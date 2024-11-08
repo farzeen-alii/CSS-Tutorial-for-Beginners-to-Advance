@@ -1,0 +1,19 @@
+/* all p tags which are in div tag  */
+/* div p{
+    color: red;
+} */
+
+/* div next to p */
+/* div > p {
+    color: crimson;
+} */
+
+/* adjacent p to div */
+div + p {
+    color: chartreuse;
+}
+
+/* ~ div k foron baad p   */
+/* div ~ p {
+    color: darkblue;
+} */

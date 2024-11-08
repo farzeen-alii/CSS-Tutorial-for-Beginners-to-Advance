@@ -1,0 +1,12 @@
+h1 {
+    /* cursor: none; */
+    /* cursor: pointer; */
+    /* cursor: help; */
+    /* cursor: wait; */
+    /* cursor: progress; */
+    /* cursor: text; */
+    /* cursor: copy; */
+    /* cursor: col-resize; */
+    cursor: default;
+    cursor: url('image/custom-cursor.png') 4 12, auto;
+}

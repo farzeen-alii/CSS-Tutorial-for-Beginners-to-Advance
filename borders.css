@@ -1,0 +1,21 @@
+.first {
+
+    /* How to style your border */
+
+    /* border-style: dotted; */
+    /* border-style: double; */
+    /* border-style: solid;
+
+    /* How to give width to your border */
+    /* border-width: 5px; */
+
+    /* How to give color to your border */
+    /* border-color: red;  */
+
+
+    /* shorthand property to set border */
+    border: 1px solid yellowgreen;
+
+    /* border radius */
+    border-radius: 28px;
+}

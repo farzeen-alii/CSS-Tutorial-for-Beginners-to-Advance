@@ -1,0 +1,24 @@
+:root{
+    --first-color: tomato;
+    --second-color: aqua;
+    --third-color: red;
+}
+
+.function{
+    background-color: var(--third-color);
+    height: 300px;
+    /* width: 70%; */
+    width: calc(100% - 300px);
+}
+.function2{
+    background-color: var(--first-color);
+    height: 300px;
+    /* width: 70%; */
+    width: calc(100% - 300px);
+}
+.function3{
+    background-color: var(--second-color);
+    height: 300px;
+    /* width: 70%; */
+    width: calc(100% - 300px);
+}

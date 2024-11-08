@@ -1,0 +1,10 @@
+.box {
+    width: 250px;
+    height: 250px;
+    border: 5px solid orange;
+    background-color: yellow;
+    /* box shadow : horizontal(left,right), vertical(top,bottom), blur, spread(optional), color */
+    /* box-shadow: 4px 4px 1px 2px red, 5px 5px 4px 4px blue; */
+    box-shadow: 4px 4px 1px 2px red inset;
+
+}

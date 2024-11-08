@@ -1,0 +1,15 @@
+/*
+second method to link print media css
+@import "print.css" print; 
+*/
+
+
+@media print{
+    h1, h2{
+        display: none;
+    }
+    p{
+        font-size: 30px;
+        color: blue;
+    }
+}

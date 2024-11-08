@@ -1,0 +1,11 @@
+img {
+    /* filter: blur(5px); */
+    /* filter: brightness(20%); */
+    /* filter: contrast(200%); */
+    /* filter: drop-shadow(15px 15px 25px green); */
+    /* filter: gray-scale(90%); */
+    /* filter: invert(90%); */
+    /* filter: opacity(90%); */
+    filter: brightness(90%), contrast(200%);
+
+}

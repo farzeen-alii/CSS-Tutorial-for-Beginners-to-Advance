@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+background-image: url('image/background.jpg');
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    clip-path: circle(10% at 0% 0%);
+    /* clip-path: polygon(10% at 90% 80%); */
+}

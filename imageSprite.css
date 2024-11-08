@@ -1,0 +1,8 @@
+.sprite {
+    height: 100%;
+    background-image: url('./image/Flag.jpg');
+    background-repeat: no-repeat;
+    height: 110px;
+    background-position: 0px -220px; 
+    /* -110 -110 = -220 */
+}

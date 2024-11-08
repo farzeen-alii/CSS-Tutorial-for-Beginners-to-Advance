@@ -1,0 +1,33 @@
+.transform{
+    padding: 25px;
+    margin: 25px;
+}
+a{
+    text-decoration: none;
+    background-color: aqua;
+    border: 3px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+a:hover{
+    display: inline-block;
+    /* transform: translate(100px,100px); */
+    /* transform: translateX(100px); */
+    /* transform: translateY(100px); */
+    /* scale */
+    /* transform: scale(2,3); */
+    /* skew */
+    /* transform: skew(20deg,30deg); */
+    /* transform: skewX(20deg); */
+    /* transform: skewY(20deg); */
+    /* rotate */
+    /* transform: rotate(45deg); */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateY(45deg); */
+
+    /* transform: matrix(scaleX, skewY, skewX, scaleY, translateX,translateY) */
+    transform: matrix(2, -0.4, 0, 1.5, 0, 1);
+
+
+}
